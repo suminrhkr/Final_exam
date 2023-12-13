@@ -72,7 +72,7 @@ def solution2(letter):
 ...     e = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j']      # e[0] = 'a', e[1] = 'b', ... , e[9] = 'j'
 ...     answer = ''.join([e[int(i)] for i in str(age)])             # 문자형으로 변환한 age 문자열 안의 문자 i에 대한 e[int(i)]를 계산해서 리스트에 저장하고, 그 리스트를 공백이었던 answer에 삽입
 ...     return answer                                               # answer의 값을 반환한다
-하... 
+... 
 ... # Q.4 10점
 ... #
 ... # x축과 y축으로 이루어진 2차원 직교 좌표계에 중심이 원점인
