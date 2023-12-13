@@ -89,7 +89,7 @@ def solution2(letter):
 ... def solution4(r1, r2):
 ...     answer = 0                                                                                              # answer = 0으로 초기화
 ...     for i in range(1, r2 + 1) :                                                                             # 1부터 r2+1 미만의 숫자들을 포함하는 range객체 생성, i는 1부터 r2까지 1씩 증가되며 반복된다
-...         answer += math.floor(math.sqrt(r2**2 - i**2)) - math.ceil(math.sqrt(max(0, r1**2 - i**2))) + 1      # 큰 원과 작은 원 사이에 겹치지 않는 부분의 점의 개수를 구한
+...         answer += math.floor(math.sqrt(r2**2 - i**2)) - math.ceil(math.sqrt(max(0, r1**2 - i**2))) + 1      # 큰 원과 작은 원 사이에 겹치지 않는 부분의 점의 개수를 구한다
 ...     return answer*4                                                                                         # 위 코드는 제 1사분면의 점들만 계산한 것이기 때문에 answer에 4를 곱한 값을 반환한다
 ... 
 ... # Q.5 10점
