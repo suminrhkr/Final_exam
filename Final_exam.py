@@ -22,7 +22,7 @@ import time
 # 1 ≤ target 의 길이 ≤ 100
 # target 은 영소문자로만 이루어져 있습니다.
 
-def solution1(my_strung, target):
+def solution1(my_string, target):
     if (target in my_string):   # x in 문자열 -> x가 문자열 안에 존재하는지
         answer = 1              # 존재한다면 answer = 1
     else:                       # 그렇지 않으면
